@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#DC000000">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon_profile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/container2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        android:background="#2d2f31"
+        app:layout_constraintTop_toBottomOf="@+id/icon_profile">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#595858"
+            android:singleLine="true"
+            android:textColor="#737373"
+            android:textColorHint="#737373"
+            android:hint="@string/hint_name_field" />
+
+        <EditText
+            android:id="@+id/phonetic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#595858"
+            android:singleLine="true"
+            android:textColor="#737373"
+            android:textColorHint="#737373"
+            android:hint="@string/hint_phoneticname_field" />
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#595858"
+            android:textColor="#737373"
+            android:textColorHint="#737373"
+            android:singleLine="true"
+            android:hint="@string/hint_lastname_field" />
+
+        <EditText
+            android:id="@+id/company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#595858"
+            android:singleLine="true"
+            android:textColor="#737373"
+            android:textColorHint="#737373"
+            android:hint="@string/hint_company_field" />
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#595858"
+            android:maxLength="11"
+            android:singleLine="true"
+            android:inputType="number"
+            android:textColor="#DA737373"
+            android:textColorHint="#737373"
+            android:hint="@string/hint_phone_field" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

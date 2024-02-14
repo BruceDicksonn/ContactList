@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lista de Contatos</string>
+
+    <string name="hint_name_field">Nome</string>
+    <string name="hint_phoneticname_field">Nome Fonético</string>
+    <string name="hint_lastname_field">Sobrenome</string>
+    <string name="hint_company_field">Empresa</string>
+    <string name="hint_phone_field">Telefone</string>
+
+    <string name="empty_list_message">Nenhum contato encontrado</string>
+
+    <string name="label_main_menu_add_contact">Novo</string>
+    <string name="message_saved_success">Contato salvo com sucesso!</string>
+    <string name="message_updated_success">Contato atualizado com sucesso!</string>
+    <string name="message_saved_error">Erro ao salvar contato, reveja os valores preenchidos!</string>
+    <string name="message_empty_fields">Preencha os campos vazios antes de salvar!</string>
+
+    <string name="title_dialog_delete_contact">Deletar contato</string>
+    <string name="message_dialog_delete_contact">Tem certeza que deseja excluir esse contato ?</string>
+    <string name="response_positive_dialog_delete_contact">Sim</string>
+    <string name="response_negative_dialog_delete_contact">Não</string>
+    <string name="message_delete_contact_success">Excluído com sucesso!</string>
+
+</resources>
